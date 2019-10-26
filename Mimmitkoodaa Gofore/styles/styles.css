@@ -1,0 +1,78 @@
+/* Colors */
+
+
+/* Fonts */
+
+html, body {
+  margin: 0;
+  height: auto;
+}
+
+/* Spacing */
+body {
+  font-size: 16px;
+  /* background: #7353c3; /* #381F60; */
+
+  padding: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+/* Text elements */
+h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+p.intro {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 0 2em 0;
+  font-style: italic;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* Styling for to-fill spots */
+.fillslot {
+  font-style: italic;
+  display: inline-block;
+  min-width: 5rem;
+  text-align: center;
+  background: rgb(169,169,169);
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+
+
+/* Links to the next and previous chapter */
+.next-chapter, .prev-chapter {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.next-chapter:hover, .prev-chapter:hover {
+  text-decoration: underline;
+}
+
+.prev-chapter {
+  position: absolute;
+  margin: 3rem;
+  top: 0;
+  left: 0; 
+}
+
+.next-chapter {
+  flex-shrink: 0;
+  text-align: right;
+  margin-bottom: 2rem;
+}
