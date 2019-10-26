@@ -3,7 +3,12 @@
 
 /* Fonts */
 
-html, body {
+html,
+body {
+  background-color: green;
+}
+
+ body {
   margin: 0;
   height: auto;
 }
@@ -68,7 +73,7 @@ p {
   position: absolute;
   margin: 3rem;
   top: 0;
-  left: 0; 
+  left: 0;
 }
 
 .next-chapter {
