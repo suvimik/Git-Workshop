@@ -1,3 +1,7 @@
+body {
+  background-color: darkred;
+}
+
 img {
   position: relative;
   float: left;
